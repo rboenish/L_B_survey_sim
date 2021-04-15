@@ -1,0 +1,20 @@
+Package: LBSS
+Title: Length-Based Survey Simulation Tools for Fishery
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Robert",
+           family = "Boenish",
+           role = c("aut"),
+    person(given = "Bai", 
+           family = "Li", 
+           role = c("aut"))
+Description: This is an open-source platform to simulate length-based crustacean fishery populations and it let users to compare candidate fishery-dependent survey approaches. Users will be able to simulate different population dynamics, including length-based spatial and temporal autocorrelation, fishery behavior, and evaluate candidate sampling strategies. Outcomes are meant to inform managers of the strength/ weaknesses in their current fishery-dependent survey programs, and to guide optimized use of limited monitoring resources. Ultimately, this tool will enable managers to integrate aspects of their own data to evaluate their current monitoring protocols.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
